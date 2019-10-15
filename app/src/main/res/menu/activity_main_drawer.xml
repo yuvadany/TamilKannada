@@ -26,11 +26,15 @@
             <item
                 android:id="@+id/noAds"
                 android:icon="@drawable/ic_menu_send"
-                android:title="App Without Ads"  />
+                android:title="No-ADVERTISEMENT APP"  />
             <item
                 android:id="@+id/praises"
                 android:icon="@drawable/ic_menu_send"
                 android:title="1000 Praises English"  />
+            <item
+                android:id="@+id/tamilSongs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="தமிழ் பாடல்கள்"  />
             <item
                 android:id="@+id/vod"
                 android:icon="@drawable/ic_menu_send"

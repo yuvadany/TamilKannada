@@ -21,7 +21,7 @@ import java.util.Date;
 
 public class DBHelper
         extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "dailyverseTamilEnglish1july19.sqlite";
+    private static final String DATABASE_NAME = "dailyverseTamilEnglish16ct19.sqlite";
     private static final int DATABASE_VERSION = 1;
     private static final String DB_PATH_SUFFIX = "/databases/";
     static Context ctx;
@@ -186,6 +186,25 @@ public class DBHelper
         return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
     }
 
+    public String[] getTamilSongDetails() {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in saveBookmark");
+        }
+        ArrayList localArrayList = new ArrayList();
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT TITLE_tamil FROM TAMILSONGS ORDER BY id", null);
+        int i = 1;
+        while (localCursor.moveToNext()) {
+            localArrayList.add(i + "." + localCursor.getString(0));
+            i++;
+        }
+        return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
+    }
+
     public String getLyrics(String title) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
@@ -196,6 +215,25 @@ public class DBHelper
             System.out.println("Error in saveBookmark");
         }
         Cursor localCursor = getReadableDatabase().rawQuery("Select  title,lyrics from ENGLISHSONGS where title ='" + title + "'", null);
+        int i = 0;
+        String str = new String();
+        while (localCursor.moveToNext()) {
+            str = localCursor.getString(0) + "\n" + localCursor.getString(1);
+        }
+        return str;
+
+    }
+
+    public String getTamilLyrics(String title) {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in getTamilLyrics");
+        }
+        Cursor localCursor = getReadableDatabase().rawQuery("Select  title_tamil,lyrics_tamil from TAMILSONGS where title_tamil ='" + title + "'", null);
         int i = 0;
         String str = new String();
         while (localCursor.moveToNext()) {
@@ -223,7 +261,23 @@ public class DBHelper
         return localArrayList;
     }
 
-
+    public ArrayList searchTamilSong(String word) {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in saveBookmark");
+        }
+        ArrayList localArrayList = new ArrayList();
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT title_english FROM TAMILSONGS where  " +
+                "title like '%" + word + "%'", null);
+        while (localCursor.moveToNext()) {
+            localArrayList.add(localCursor.getString(0));
+        }
+        return localArrayList;
+    }
     public void saveBookmark(String word) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {

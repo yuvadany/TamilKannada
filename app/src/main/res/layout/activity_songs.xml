@@ -14,15 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <ListView
-        android:id="@+id/searchresult"
-        android:layout_width="fill_parent"
-        android:layout_marginBottom="35.0dip"
-        android:layout_height="wrap_content"
-        android:background="@color/colorSearch"
-        android:layout_below="@+id/searchSong"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-    <ListView
         android:id="@+id/listviewallsongs"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

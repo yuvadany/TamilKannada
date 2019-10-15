@@ -63,7 +63,7 @@ import static com.englishbible.tamilbible.BooksChapters.getChaptersCount;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener, AdapterView.OnItemSelectedListener {
-    //  DBHelper dbhelper = new DBHelper(this);
+    DBHelper dbhelper = new DBHelper(this);
     public int book_number = 1;
     ClipboardManager myClipboard;
     SharedPreferences sharedpreferences, sharedPreferencesReadMode, englishBiblePrefrences;
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity
     DrawerLayout verseLayout;
     TextView todayverse;
     String verseToday;
-    DBHelper dbhelper = new DBHelper(this);
+    DBHelperTrans dbhelperTrans = new DBHelperTrans(this);
     String searchResult = "test";
     String verseSelected = "Amen";
     String verse_selected = "Amen";
@@ -592,7 +592,7 @@ public class MainActivity extends AppCompatActivity
             } catch (Exception e) {
             }
         } else if (item.getItemId() == R.id.bookmark) {
-            dbhelper.saveBookmark(sharedpreferences.getString(BOOK_NAME, "Genesis") + sharedpreferences.getString(CHAPTER_NUMBER_BOOKMARK, "1") + " : " + sharedpreferences.getString(SELECTED_VERSE, "Holy"));
+            dbhelperTrans.saveBookmark(sharedpreferences.getString(BOOK_NAME, "Genesis") + sharedpreferences.getString(CHAPTER_NUMBER_BOOKMARK, "1") + " : " + sharedpreferences.getString(SELECTED_VERSE, "Holy"));
             Toast.makeText(MainActivity.this, "Bookmarked", Toast.LENGTH_LONG).show();
         } else if (item.getItemId() == R.id.notes) {
             startActivity(new Intent(this, NotesActivity.class));
@@ -810,6 +810,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.jesusquotes) {
             startActivity(new Intent(this, QuotesActivity.class));
+        }else if (id == R.id.tamilSongs) {
+            startActivity(new Intent(this, TamilSongsActivity.class));
         } else if (id == R.id.Tamilpraises) {
             startActivity(new Intent(this, TamilPraiseActivity.class));
         } else if (id == R.id.praises) {
