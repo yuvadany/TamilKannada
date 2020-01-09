@@ -34,7 +34,7 @@
             <item
                 android:id="@+id/tamilSongs"
                 android:icon="@drawable/ic_menu_send"
-                android:title="தமிழ் பாடல்கள்"  />
+                android:title="தமிழ் பாடல்கள் 900+"  />
             <item
                 android:id="@+id/vod"
                 android:icon="@drawable/ic_menu_send"

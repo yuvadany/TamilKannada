@@ -21,7 +21,7 @@ import java.util.Date;
 
 public class DBHelper
         extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "dailyverseTamilEnglish16ct19.sqlite";
+    private static final String DATABASE_NAME = "dailyverseTamilEnglish9jan20.sqlite";
     private static final int DATABASE_VERSION = 1;
     private static final String DB_PATH_SUFFIX = "/databases/";
     static Context ctx;
@@ -187,21 +187,23 @@ public class DBHelper
     }
 
     public String[] getTamilSongDetails() {
+        System.out.println("inside getTamilSongDetails");
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
                 CopyDataBaseFromAsset();
             }
         } catch (Exception e) {
-            System.out.println("Error in saveBookmark");
+            System.out.println("Error in getTamilSongDetails");
         }
         ArrayList localArrayList = new ArrayList();
-        Cursor localCursor = getReadableDatabase().rawQuery("SELECT TITLE_tamil FROM TAMILSONGS ORDER BY id", null);
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT Title_Tamil FROM TamilSongs ORDER BY title_english", null);
         int i = 1;
         while (localCursor.moveToNext()) {
             localArrayList.add(i + "." + localCursor.getString(0));
             i++;
         }
+        System.out.println(" songs# inside getTamilSongDetails " +i);
         return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
     }
 
