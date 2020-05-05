@@ -36,7 +36,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.64.110:5555" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_S_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -50,7 +50,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -108,8 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/lugandabible/PraisesActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/lugandabible/BookmarkActivity.java" />
         <option value="E:/luganda/lu/app/src/main/java/bible/englishbible/lugandabible/MainActivity.java" />
         <option value="E:/luganda/lu/app/src/main/res/values/strings.xml" />
         <option value="E:/luganda/lu/app/build.gradle" />
@@ -137,14 +135,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_notes.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_notes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notes_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_praises.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/PraisesActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/TamilPraiseActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_praise.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/DBHelperTrans.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/AddNotesActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/BookmarkActivity.java" />
@@ -154,18 +149,23 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/TamilSongsActivity.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_songs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/SongsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/raw/tml_41_2.txt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/DBHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/TamilPraiseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_praise.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_songs.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="25" />
-    <option name="y" value="25" />
-    <option name="width" value="1350" />
+    <option name="x" value="27" />
+    <option name="y" value="24" />
+    <option name="width" value="1347" />
     <option name="height" value="690" />
   </component>
   <component name="ProjectView">
@@ -175,7 +175,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -188,18 +187,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.64.104:5555" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-10-15T15:40:20.831Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_S_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-05T10:12:48.909Z" />
     <property name="ExportApk.ApkPath" value="C:\" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="Android_7_API_25" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jks-master/yuvadany2.jks" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1556683425117" />
   </component>
@@ -317,25 +317,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.40969163" side_tool="true" weight="0.23020135" />
+      <window_info id="Structure" order="0" sideWeight="0.4201313" side_tool="true" weight="0.3263158" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" id="Build Variants" order="4" sideWeight="0.411985" side_tool="true" visible="true" weight="0.22214764" />
+      <window_info active="true" id="Build Variants" order="4" sideWeight="0.42231947" side_tool="true" visible="true" weight="0.3263158" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.58801496" visible="true" weight="0.22214764" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.5776805" visible="true" weight="0.3263158" />
       <window_info id="Captures" order="8" sideWeight="0.5017007" side_tool="true" weight="0.25037822" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.32993197" />
-      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.21815519" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.23268206" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.45973647" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.46412885" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.18827708" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.329429" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -346,23 +346,23 @@
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info id="Structure" order="0" sideWeight="0.40969163" side_tool="true" weight="0.23020135" />
+      <window_info id="Structure" order="0" sideWeight="0.4201313" side_tool="true" weight="0.3263158" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
-      <window_info id="Build Variants" order="4" sideWeight="0.4124294" side_tool="true" weight="0.22214764" />
+      <window_info id="Build Variants" order="4" sideWeight="0.41721854" side_tool="true" weight="0.22186235" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.5875706" visible="true" weight="0.22214764" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.57986873" visible="true" weight="0.3263158" />
       <window_info id="Captures" order="8" sideWeight="0.5017007" side_tool="true" weight="0.25037822" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.32993197" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.27818447" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.21669628" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.12591508" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.45973647" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.46412885" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.18827708" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.329429" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -414,22 +414,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -444,13 +428,6 @@
     <entry file="file://E:/luganda/lu/app/src/main/java/bible/englishbible/cebuanobible/MainActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/LyricsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://E:/Cebuano/Cebuano/app/src/main/res/values/strings.xml" />
     <entry file="file://E:/Cebuano/Cebuano/app/src/main/AndroidManifest.xml" />
@@ -469,13 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -562,20 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="e#326#361#0" expanded="true" />
-            <element signature="e#385#418#0" expanded="true" />
-            <element signature="e#444#479#0" expanded="true" />
-            <element signature="e#506#539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/notes_popup.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -589,17 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notes_view.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#893#911#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,35 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/PraisesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/BooksChapters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="150" column="27" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_praise.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/TamilPraiseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,16 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/BookmarkActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="156" column="29" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/EditNotesActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -685,23 +595,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/NotesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/NotesViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -725,36 +618,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_songs.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="812" column="33" selection-start-line="812" selection-start-column="33" selection-end-line="812" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/SongsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="134" column="30" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
-          <folding>
-            <element signature="e#4384#4529#1" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,17 +633,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/tml_41_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="70" lean-forward="true" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        <state relative-caret-position="117">
+          <caret line="476" lean-forward="true" selection-start-line="476" selection-end-line="476" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="815" column="53" lean-forward="true" selection-start-line="815" selection-start-column="43" selection-end-line="815" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/LyricsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/PraisesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-831">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/TamilPraiseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="57" column="57" lean-forward="true" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/SongsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+          <folding>
+            <element signature="e#4384#4529#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_songs.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_praise.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/NotesViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notes_view.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/NotesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/tamilbible/BookmarkActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>

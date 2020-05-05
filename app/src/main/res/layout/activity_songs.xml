@@ -15,6 +15,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="50.0dip"
+        android:divider="@null"
+        android:dividerHeight="3dp"
         android:layout_below="@+id/searchresult"
         android:layout_alignRight="@+id/searchresult"
         android:layout_alignEnd="@+id/searchresult" />

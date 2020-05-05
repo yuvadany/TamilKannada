@@ -21,7 +21,7 @@ import java.util.Date;
 
 public class DBHelper
         extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "dailyverseTamilEnglish9jan20.sqlite";
+    private static final String DATABASE_NAME = "dailyverseTamilEnglish5may20.sqlite";
     private static final int DATABASE_VERSION = 1;
     private static final String DB_PATH_SUFFIX = "/databases/";
     static Context ctx;
@@ -475,7 +475,30 @@ public class DBHelper
         return (formatter.format(date));
     }
 
-
+    public ArrayList<String> getPraises()
+    {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        System.out.println("localFile  getPraises() "+localFile.getName() + localFile.getAbsolutePath());
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+        }
+        ArrayList<String> volumeSongsList = new ArrayList();
+        try {
+            Cursor localCursor = getReadableDatabase().rawQuery("SELECT praise " +
+                    "FROM praises_tamil", null);
+            //new StringBuffer();
+            while (localCursor.moveToNext()) {
+                volumeSongsList.add( localCursor.getString(0)  );
+            }
+        }
+        catch (Exception e) {
+            System.out.println("getPraises() Error " + e);
+        }
+        return volumeSongsList;
+    }
 
 }
 
