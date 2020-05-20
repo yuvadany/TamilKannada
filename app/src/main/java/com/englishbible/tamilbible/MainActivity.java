@@ -824,7 +824,13 @@ public class MainActivity extends AppCompatActivity
                 int doy = cal.get(Calendar.DAY_OF_YEAR);
                 //this.dbhelper.openDataBase();
                 verseDate = dbhelper.getVerse(doy);
-                Toast.makeText(MainActivity.this, verseDate.get(0), Toast.LENGTH_LONG).show();
+                // Toast.makeText(Main2Activity.this, verseDate.get(0), Toast.LENGTH_LONG).show();
+                Bundle localBundle = new Bundle();
+                //Toast.makeText(getBaseContext(), story, Toast.LENGTH_LONG).show();
+                Intent localIntent = new Intent(MainActivity.this, VerseActivity.class);
+                localBundle.putString("verse", verseDate.get(0));
+                localIntent.putExtras(localBundle);
+                MainActivity.this.startActivity(localIntent);
             } catch (Exception e) {
             }
         } else if (id == R.id.songs) {
