@@ -5,10 +5,10 @@
         android:title="BookMark" />
     <item
         android:id="@+id/copy"
-        android:title="Copy" />
+        android:title="Copy" /><!--
     <item
         android:id="@+id/addNotes"
-        android:title="Add Notes" />
+        android:title="Add Notes" />-->
     <item
         android:id="@+id/notes"
         android:title="Notes" />

@@ -596,9 +596,9 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(MainActivity.this, "Bookmarked", Toast.LENGTH_LONG).show();
         } else if (item.getItemId() == R.id.notes) {
             startActivity(new Intent(this, NotesActivity.class));
-        } else if (item.getItemId() == R.id.addNotes) {
+        }/* else if (item.getItemId() == R.id.addNotes) {
             startActivity(new Intent(this, AddNotesActivity.class));
-        } else if (item.getItemId() == R.id.copy) {
+        }*/ else if (item.getItemId() == R.id.copy) {
             myClipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
             ClipData copiedVerseClipData;
             String verse = verse_selected = book_name + " :" + chapter_number + "\n" + sharedpreferences.getString(SELECTED_VERSE, "Holy");
@@ -804,11 +804,7 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(app_url));
             startActivity(intent);
-        } else if (id == R.id.noAds) {
-            Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse(pay_app_url));
-            startActivity(intent);
-        } else if (id == R.id.jesusquotes) {
+        }  else if (id == R.id.jesusquotes) {
             startActivity(new Intent(this, QuotesActivity.class));
         }else if (id == R.id.tamilSongs) {
             startActivity(new Intent(this, TamilSongsActivity.class));

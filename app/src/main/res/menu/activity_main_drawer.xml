@@ -24,10 +24,6 @@
                 android:icon="@drawable/ic_menu_send"
                 android:title="இயேசுவின் வார்த்தைகள்" />
             <item
-                android:id="@+id/noAds"
-                android:icon="@drawable/ic_menu_send"
-                android:title="No-ADVERTISEMENT APP"  />
-            <item
                 android:id="@+id/praises"
                 android:icon="@drawable/ic_menu_send"
                 android:title="1000 Praises English"  />
