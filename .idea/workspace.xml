@@ -53,7 +53,7 @@
     <favorites_list name="tamil" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -177,6 +177,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -188,9 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,10 +332,10 @@
       <window_info id="Image Layers" order="1" />
       <window_info id="Favorites" order="2" sideWeight="0.44760212" side_tool="true" weight="0.19757085" />
       <window_info id="Designer" order="3" />
-      <window_info id="Build Variants" order="4" sideWeight="0.23636363" side_tool="true" visible="true" weight="0.24777327" />
+      <window_info id="Build Variants" order="4" sideWeight="0.29220778" side_tool="true" visible="true" weight="0.24777327" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.76363635" visible="true" weight="0.24777327" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.7077922" visible="true" weight="0.24777327" />
       <window_info id="Captures" order="8" sideWeight="0.5017007" side_tool="true" weight="0.25037822" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.32993197" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.23268206" />
@@ -344,7 +344,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.45731708" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.21847247" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.1793961" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.329429" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -824,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
