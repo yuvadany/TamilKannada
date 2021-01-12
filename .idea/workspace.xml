@@ -177,6 +177,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -186,15 +189,17 @@
             </path>
             <path>
               <item name="tamil" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="tamil" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,10 +341,10 @@
       <window_info id="Image Layers" order="1" />
       <window_info id="Favorites" order="2" sideWeight="0.44760212" side_tool="true" weight="0.19757085" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" id="Build Variants" order="4" sideWeight="0.2943723" side_tool="true" visible="true" weight="0.24777327" />
+      <window_info active="true" id="Build Variants" order="4" sideWeight="0.2987013" side_tool="true" visible="true" weight="0.24777327" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.7056277" visible="true" weight="0.24777327" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.7012987" visible="true" weight="0.24777327" />
       <window_info id="Captures" order="8" sideWeight="0.5017007" side_tool="true" weight="0.25037822" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.32993197" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.23268206" />
@@ -828,8 +833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
