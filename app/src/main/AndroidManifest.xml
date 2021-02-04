@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.englishbible.tamilbible">
+    package="com.kannadabible.tamilbible">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,28 +11,29 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".VerseActivity"
+            android:name="com.kannadabible.tamilbible.VerseActivity"
             android:label="@string/title_activity_verse"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".TamilSongsActivity" />
+        <activity android:name="com.kannadabible.tamilbible.TamilSongsActivity" />
         <activity
-            android:name=".EditNotesActivity"
+            android:name="com.kannadabible.tamilbible.EditNotesActivity"
             android:label="Update Notes" />
         <activity
-            android:name=".AddNotesActivity"
+            android:name="com.kannadabible.tamilbible.AddNotesActivity"
             android:label="Add Notes" />
         <activity
-            android:name=".NotesViewActivity"
+            android:name="com.kannadabible.tamilbible.NotesViewActivity"
             android:label="Notes" />
         <activity
-            android:name=".NotesActivity"
+            android:name="com.kannadabible.tamilbible.NotesActivity"
             android:label="All Notes" />
-        <activity android:name=".QuotesActivity" />
-        <activity android:name=".TamilPraiseActivity" />
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".BookmarkActivity" />
+        <activity android:name="com.kannadabible.tamilbible.QuotesActivity" />
+        <activity android:name="com.kannadabible.tamilbible.TamilPraiseActivity" />
+        <activity android:name="com.kannadabible.tamilbible.KannadaPraisesActivity" />
+        <activity android:name="com.kannadabible.tamilbible.SettingsActivity" />
+        <activity android:name="com.kannadabible.tamilbible.BookmarkActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.kannadabible.tamilbible.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -41,9 +42,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PraisesActivity" />
-        <activity android:name=".LyricsActivity" />
-        <activity android:name=".SongsActivity" />
+        <activity android:name="com.kannadabible.tamilbible.PraisesActivity" />
+        <activity android:name="com.kannadabible.tamilbible.LyricsActivity" />
+        <activity android:name="com.kannadabible.tamilbible.SongsActivity" />
     </application>
 
 </manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="பரிசுத்த வேதாகமம்-Holy Bible">
+    <item android:title="@string/app_name">
         <menu>
             <item
                 android:id="@+id/settings"
@@ -22,11 +22,15 @@
             <item
                 android:id="@+id/jesusquotes"
                 android:icon="@drawable/ic_menu_send"
-                android:title="இயேசுவின் வார்த்தைகள்" />
+                android:title="வார்த்தைகள்" />
             <item
                 android:id="@+id/praises"
                 android:icon="@drawable/ic_menu_send"
                 android:title="1000 Praises English"  />
+            <item
+                android:id="@+id/praisesKannada"
+                android:icon="@drawable/ic_menu_send"
+                android:title="1000 ಸ್ತೋತ್ರ Kannada"  />
             <item
                 android:id="@+id/tamilSongs"
                 android:icon="@drawable/ic_menu_send"
