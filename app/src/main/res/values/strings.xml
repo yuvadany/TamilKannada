@@ -17,13 +17,13 @@
         <item>1-1000</item>
     </string-array>
     <string name="title_activity_main2">Praises </string>
-    <string name="banner_home_footer">ca-app-pub-8821114814067767/7554832253</string>
+    <string name="banner_home_footer">ca-app-pub-8821114814067767/9264180538</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="AboveAll">Above all powers, above all kings</string>
     <string name="title_activity_lyrics">LyricsActivity</string>
     <string name="title_activity_you_tube">YouTubeActivity</string>
-    <string name="admob_interstitial_id">ca-app-pub-8821114814067767/4633540197</string>
+    <string name="admob_interstitial_id">ca-app-pub-8821114814067767/9264180538</string>
     <string name="title_activity_songs">SongsActivity</string>
     <string-array name="fontsize">
         <item>13</item>
